@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background-color: white;
+  background-position: center;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  width: 750px;
+  margin: auto;
+}
+
+div {
+  background-repeat: no-repeat;
+}
+
+button {
+  width: 750px;
+  border: none;
+  outline: none;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+.speech {
+  width: 750px;
+  text-align: right;
+}
+
+.fv {
+  height: 1334px;
+  background-image: url(img/FV.jpg);
+}
+
+.v2 {
+  background-image: url(img/2V.jpg);
+  height: 1335px;
+}
+
+.v2 button {
+  position: absolute;
+  top: 2520px;
+}
+
+.v3 {
+  background-image: url(img/3V.jpg);
+  height: 1337px;
+}
+
+.v4 {
+  background-image: url(img/4V.jpg);
+  height: 1321px;
+}
+
+.v5 {
+  background-image: url(img/5V.jpg);
+  height: 1357px;
+}
+
+.v6 {
+  background-image: url(img/6V.jpg);
+  height: 1334px;
+}
+
+.v7 {
+  background-image: url(img/7V.jpg);
+  height: 1333px;
+}
+
+.v8 {
+  background-image: url(img/8V.jpg);
+  height: 1311px;
+}
+
+.v8 button {
+  position: absolute;
+  top: 10430px;
+}
+
+.v8speech {
+  position: absolute;
+  top: 10380px;
+}
+
+.v9 {
+  background-image: url(img/9V.jpg);
+  height: 1334px;
+}
+
+.v10 {
+  background-image: url(img/10V.jpg);
+  height: 1315px;
+}
+
+.v11 {
+  background-image: url(img/8V.jpg);
+  height: 1311px;
+}
+
+.v11 button {
+  position: absolute;
+  top: 14450px;
+}
+
+.v11speech {
+  position: absolute;
+  top: 14400px;
+}
+
+.v12 {
+  background-image: url(img/12V.jpg);
+  height: 1334px;
+}
+
+.v13 {
+  background-image: url(img/13V.jpg);
+  height: 1335px;
+}
+
+.v14 {
+  background-image: url(img/14V.jpg);
+  height: 970px;
+}
+
+.v1415 {
+  background-image: url(img/8V.jpg);
+  height: 1311px;
+}
+
+.v1415 button {
+  position: absolute;
+  top: 19430px;
+}
+
+.v1415speech {
+  position: absolute;
+  top: 19380px;
+}
+
+.v15 {
+  text-align: center;
+  background-image: url(img/15V.jpg);
+  height: 292px;
+}
+
+.tel {
+  position: relative;
+  transform: translateX(-120px);
+}
+
+.v15 a {
+  font-size: 48px;
+  color: rgb(90,66,55);
+  position: absolute;
+  top: 80px;
+}
+
+.v16 {
+  text-align: center;
+  background-color: white;
+  height: 100px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.list {
+  color: rgba(90,66,55);
+}
