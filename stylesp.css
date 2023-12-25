@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+header {
+  background: white;
+  color: lightgray;
+}
+
+.contents {
+  display: flex;
+}
+
+menu {
+  display: table;
+  text-align: center;
+  background: lightgray;
+  color: white;
+  width: 150px;
+  height: 250px;
+  margin: 10px;
+}
+
+menu ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+}
+
+.box {
+  display: table;
+  text-align: center;
+  background: darkgray;
+  color: white;
+  width: 1100px;
+  height: 250px;
+  margin: 10px 40px;
+}
+
+.box p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 750px) {
+
+  body{
+    width: 750px;
+  }
+
+  menu {
+    width: 180px;
+    height: 700px;
+    font-size: 12px;
+  }
+
+  .box {
+    height: 700px;
+    width: 480px;
+    font-size: 12px;
+    margin: 10px 8px;
+  }
+
+}
