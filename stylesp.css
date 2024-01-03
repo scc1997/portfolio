@@ -56,10 +56,6 @@ a {
 
 @media screen and (max-width: 750px) {
 
-  body{
-    width: 750px;
-  }
-
   menu {
     width: 180px;
     height: 700px;
