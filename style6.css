@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fv {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/FV.png);
+}
+
+.cv01 {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/cv01.png);
+}
+
+.cv01 button {
+  position: relative;
+  top: 790px;
+}
+
+.cv02 {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/cv02.png);
+}
+
+.cv03 {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/cv03.png);
+}
+
+.cv03 button {
+  position: relative;
+  top: 1130px;
+}
+
+.cv04 {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/cv04.png);
+}
+
+.cv05 {
+  height: 1334px;
+  background-image: url(WANPAKU\ LP/cv05.png);
+}
+
+.cv05 button {
+  position: relative;
+  top: 1028px;
+}
+
+footer {
+  position: relative;
+  top: 1112px;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
